@@ -1,0 +1,27 @@
+.btn {
+  position: relative;
+  align-items: center;
+  background-color: #3e7bad;
+  background-position: center;
+  border: #0066b9;
+  color: #fff;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  transition: all 0.3s;
+  user-select: none;
+  overflow: hidden;
+}
+.btn:focus {
+  background-color: #0960a7;
+  border: 1px solid #4eafff;
+}
+.btn[data-primary="true"] {
+  border: 2px solid #e50914;
+}
+.btn[data-primary="true"]:hover {
+  background: #e50914;
+}
